@@ -1,0 +1,91 @@
+body {
+     /* background-color:#013220; */
+    background: #466D57;
+    display: grid;
+    grid-template-areas: 
+    "nav head"
+    "social main"
+    "social main"
+    "social footer";
+}
+body>nav{
+    /* background-color:#013220; */
+    background-color: #011910;
+
+    padding:40px;
+    font-size: 1.25em;
+    color: white;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace; 
+    grid-area: nav;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    color: red;
+}
+header{
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace; 
+    font-size: 60px;
+    padding: 10px;
+    color: white;
+    grid-area: head;
+    text-align: center;
+    position: sticky;
+}
+footer{
+    font-size: 1.25em;
+    padding: 0px 50px;
+    grid-area: footer;
+    color: white;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace; 
+    padding-bottom: 20px;
+
+
+}
+main{
+    
+    margin-top:30px;
+    margin-bottom: 30px;
+    grid-area: main;
+    color: white;
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 50px;
+
+}
+body>.social{
+    /* background-color:#013220; */
+    background-color: #011910;
+    padding:40px;
+    font-size: 1.25em;
+    grid-area:social;
+    color: white;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace; 
+
+}
+
+.title{
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace; 
+    text-align: center;
+}
+img{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+section{
+    padding-bottom:10px;
+    
+}
+h2, h3{
+    padding-bottom: 10px;
+}
